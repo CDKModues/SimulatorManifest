@@ -51,5 +51,6 @@
     <Tool Name="Simulator" Value="cskysim.exe"/>
     <Tool Name="CPF32" Value="cpf.exe"/>
     <Tool Name="CPF64" Value="cpf64.exe"/>
+    <Tool Name="UserConfig" Value="xuantie-qemu-win-20211217-0918/soccfg"/>
   </Version>
 </Simulator>
