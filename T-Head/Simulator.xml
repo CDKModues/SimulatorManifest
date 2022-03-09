@@ -47,11 +47,11 @@
       2.2 如果是tar.gz / zip形式，则是直接解压出来以后的顶层目录
     3 如果环境变量需要多个，以;（英文格式的分号）为分隔符
     -->
-    <EnvPath>xuantie-qemu-win-20211217-0918</EnvPath>
+    <EnvPath>./</EnvPath>
     <Tool Name="Simulator" Value="cskysim.exe"/>
     <Tool Name="CPF32" Value="cpf.exe"/>
     <Tool Name="CPF64" Value="cpf64.exe"/>
-    <Tool Name="UserConfig" Value="xuantie-qemu-win-20211217-0918/soccfg"/>
+    <Tool Name="UserConfig" Value="soccfg"/>
     <Tool Name="Verbose" Value="cskysim.exe -v"/>
   </Version>
 </Simulator>
