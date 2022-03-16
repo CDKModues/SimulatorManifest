@@ -23,7 +23,7 @@
   <!--
   Version节点用于描述每个具体的资源，可以存在多个Value值不同的Version用来描述该资源的多个版本
   -->
-  <Version Value="V3.8.2">
+  <Version Value="V3.8.10">
     <!--
     ResourceType支持的类型有 tar.gz / zip / git 
     -->
@@ -31,7 +31,7 @@
     <!--
     ResourceURL是获取该资源的地址，外网可访问
     -->
-    <ResourceURL>https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource/1356021/1640154586368/xuantie-qemu-win-20211217-0918.tar.gz</ResourceURL>
+    <ResourceURL>https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource/1356021/1647400178451/xuantie-qemu-win-20220302-0612.tar.gz</ResourceURL>
     <!--
     ResourceValidation用于验证ResourceURL的安全性和有效性；
     如果是tar.gz / zip 类型，这里需要提供MD5值；
@@ -39,7 +39,7 @@
       certutil -hashfile D:\your\file\fullpath\filename.tar.gz MD5
     如果是git仓库，这里需要提供commit的hash值
     -->
-    <ResourceValidation>f45adb43b4a4c03bcf64f515bc4a014e</ResourceValidation>
+    <ResourceValidation>b37e65e87094afd99195ebe1788270fd</ResourceValidation>
     <!--
     1 EnvPath用来设置环境变量，在CDK内部使用该工具链时，会首先设置该环境变量
     2 这里相对路径是资源包下载完成以后的父目录：
