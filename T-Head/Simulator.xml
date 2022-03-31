@@ -23,7 +23,7 @@
   <!--
   Version节点用于描述每个具体的资源，可以存在多个Value值不同的Version用来描述该资源的多个版本
   -->
-  <Version Value="V3.8.10">
+  <Version Value="V3.8.13">
     <!--
     ResourceType支持的类型有 tar.gz / zip / git 
     -->
