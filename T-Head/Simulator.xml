@@ -107,4 +107,15 @@
     <Tool Name="UserConfig" Value="./"/>
     <Tool Name="Verbose" Value="cskysim.exe -v"/>
   </Version>
+  <Version Value="V4.0.3">
+    <ResourceType>tar.gz</ResourceType>
+    <ResourceURL>https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1681722821931/xuantie-qemu-win-20230413-0717.tar.gz</ResourceURL>
+    <ResourceValidation>0288da88d83c4d388ca2dc8401083fce</ResourceValidation>
+    <EnvPath>./</EnvPath>
+    <Tool Name="Simulator" Value="cskysim.exe"/>
+    <Tool Name="CPF32" Value="cpf.exe"/>
+    <Tool Name="CPF64" Value="cpf64.exe"/>
+    <Tool Name="UserConfig" Value="./"/>
+    <Tool Name="Verbose" Value="cskysim.exe -v"/>
+  </Version>
 </Simulator>
